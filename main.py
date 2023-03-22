@@ -13,7 +13,7 @@ BOT_TOKEN = '6145559264:AAEkUH_znhpaTdkbnndwP1Vy2ppv-C9Zf4o'
 app = Client("my_bot", api_id=API_ID, api_hash=API_HASH, bot_token=BOT_TOKEN)
 
 # Define the font for the welcome message
-font = ImageFont.truetype('/usr/share/fonts/truetype/dejavu/DejaVuSerif.ttf', 40)
+font = ImageFont.truetype('/usr/share/fonts/truetype/LemonMilk/LemonMilk.otf', 40)
 
 def welcome(client, message):
     user = message.new_chat_members[0]
